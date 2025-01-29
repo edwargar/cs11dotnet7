@@ -1,15 +1,17 @@
-﻿string[] names; // can reference any size array of strings
+﻿using static System.Console;
+
+string[] names; // can reference any size array of strings
 
 // allocating memory for four strings in an array
 names = new string[4];
 
 // storing items at index positions
-names[0] = "Kate";
+names[0] = "ZACHY";
 names[1] = "Jack";
 names[2] = "Rebecca";
-names[3] = "Tom";
+names[3] = "Timber";
 
-string[] names2 = new[] { "Kate", "Jack", "Rebecca", "Tom" };
+string[] names2 = new[] { "ZACHY", "Jack", "Rebecca", "Timber" };
 
 // looping through the names
 for (int i = 0; i < names2.Length; i++)
@@ -17,6 +19,13 @@ for (int i = 0; i < names2.Length; i++)
   // output the item at index position i
   WriteLine(names2[i]);
 }
+
+
+
+
+
+
+//adding space
 
 string[,] grid1 = new[,] // two dimensions
 {
